@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- build:css styles/popup-vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div class="main">
+        <h3 class="appTitle">斗鱼弹幕大神助手</h3>
+        <div id="jiezou_list">
+            <input type="text" id="jiezou1" class="form-control jiezou" placeholder="输入节奏">
+        </div>
+        <button id="newBtn" class="btn btn-default">添加新节奏</button>
+        <div id="timediv">
+            <span>时间间隔:</span>
+            <input type="number" class="form-control sec-input" id="sec1" placeholder="秒" value="5">
+            <span>--</span>
+            <input type="number" class="form-control sec-input" id="sec2" placeholder="秒" value="10">
+        </div>
+        <hr>
+        <button id="startBtn" class="btn btn-primary btn-lg btn-block">开喷!</button>
+    </div>
+
+    <!-- build:js scripts/popup-vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/popup.js -->
+    <script src="scripts/popup.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

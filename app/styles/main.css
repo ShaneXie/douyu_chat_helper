@@ -1,0 +1,27 @@
+body {
+  padding: 20px;
+}
+
+.main {
+	width: 400px;
+}
+
+.appTitle {
+	text-align: center;
+}
+
+.jiezou {
+	margin-bottom: 5px;
+}
+
+
+#timediv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.sec-input {
+	width: 80px;
+}
